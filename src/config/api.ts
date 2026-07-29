@@ -10,6 +10,7 @@ function getAuthHeaders(): Record<string, string> {
 
 export const apiClient = {
   async get<T>(endpoint: string): Promise<T> {
+    
     const res = await fetch(`${API_BASE}${endpoint}`, {
       headers: getAuthHeaders(),
     });
