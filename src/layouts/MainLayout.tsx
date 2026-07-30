@@ -106,8 +106,10 @@ export default function MainLayout({ children }: { children: ReactNode }) {
           <a href={SITE_CONFIG.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a href={`mailto:${SITE_CONFIG.email}`}>Contacto</a>
         </div>
-        <p className="footer-copy">&copy; {new Date().getFullYear()} Luis F. Forjado con pasión.</p>
+        <p className="footer-copy">&copy; {new Date().getFullYear()} Luis F. Forjado con la tematica de LOTR.</p>
         <p className="footer-quote">"No todos los que vagan se pierden." — J.R.R. Tolkien</p>
+        <p className="footer-quote">"si has leido esto pulsa varias veces." </p>
+        
 
         <AnimatePresence>
           {easterEgg && (

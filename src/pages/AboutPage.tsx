@@ -26,10 +26,10 @@ export default function AboutPage() {
         <motion.h2 className="lotr-title" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2 }} style={{ fontSize: '1.8rem', marginBottom: '4px' }}>
           {user?.name || 'Luis F.'}
         </motion.h2>
-        <p className="lotr-subtitle" style={{ fontSize: '0.85rem', marginBottom: '20px' }}>Full Stack Developer</p>
+        <p className="lotr-subtitle" style={{ fontSize: '0.85rem', marginBottom: '20px' }}>Full Stack Developer Junior</p>
 
         <motion.p className="lotr-text" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4 }} style={{ textAlign: 'center', maxWidth: '550px', fontSize: '1rem', marginBottom: '30px' }}>
-          {user?.bio || 'Desarrollador apasionado por crear aplicaciones increíbles. Cada línea de código es un paso en la travesía.'}
+          {user?.bio || 'Desarrollo aplicaciones increíbles como este portfolio profesional. Cada línea de código es un paso en la travesía.'}
         </motion.p>
 
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }} style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px', width: '100%', maxWidth: '400px', marginBottom: '30px' }}>
@@ -52,7 +52,7 @@ export default function AboutPage() {
             Ver GitHub &rarr;
           </a>
           <a href={`mailto:${SITE_CONFIG.email}`} className="lotr-btn" style={{ textDecoration: 'none' }}>
-            Enviar Palantír
+            Enviar Palantír(Correo)
           </a>
         </motion.div>
 

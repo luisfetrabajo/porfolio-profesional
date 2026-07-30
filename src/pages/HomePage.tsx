@@ -42,7 +42,7 @@ export default function HomePage() {
         </motion.h1>
 
         <motion.p className="lotr-subtitle" custom={1} initial="hidden" animate="visible" variants={fadeUp} style={{ fontSize: 'clamp(0.8rem, 2vw, 1rem)', marginBottom: '16px' }}>
-          Full Stack Developer
+          Full Stack Developer Junior
         </motion.p>
 
         <motion.div className="lotr-divider" custom={2} initial="hidden" animate="visible" variants={fadeUp} />
