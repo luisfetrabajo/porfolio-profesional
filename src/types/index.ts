@@ -37,7 +37,7 @@ export interface Certificado {
 }
 
 export interface Mensaje {
-  id: string;
+  _id: string;
   nombre: string;
   email: string;
   asunto: string;
