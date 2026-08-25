@@ -3,3 +3,14 @@ dist/
 
 .vercel/
 *.log
+
+node_modules/
+dist/
+
+.vercel/
+*.log
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
